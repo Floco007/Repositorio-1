@@ -5,5 +5,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
          - uses: actions/checkout@v4
-         - name: Verificar intex.html
-           run: test -f intex.html
+         - name: Verificar index.html
+           run: test -f index.html
